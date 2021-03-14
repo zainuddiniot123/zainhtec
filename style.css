@@ -95,6 +95,12 @@ background: linear-gradient(90deg, rgba(94,0,127,1) 0%, rgba(51,0,101,1) 100%);
 	justify-content: space-evenly;
 }
 
+@media screen and (max-width: 750px){
+	.top-bar .left{
+		font-size: 10px;
+	}
+}
+
 .top-bar .right span, .top-bar .left span{
 	display: flex;
 	margin: 0.8rem;
